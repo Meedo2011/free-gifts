@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Your Free Gift!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container" id="mainContent">
+        <header>
+            <img src="gift.jpg" alt="Gift Logo" class="logo">
+            <h1>Claim Your Free Gift Today!</h1>
+            <p>Fill out the form below and receive your exclusive gift!</p>
+        </header>
+        <form id="giftForm">
+            <div class="input-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="XXXX XXXX" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" placeholder="x.x@x.x" required>
+            </div>
+
+            <div class="input-group">
+                <label for="gift">Choose Your Gift:</label>
+                <select id="gift" required>
+                    <option value="gift-card">Gift Card</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="voucher">Voucher</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-btn">Claim Now</button>
+        </form>
+    </div>
+
+    <div id="prankContent" class="hidden">
+        <div class="chaos">
+            <h1>⚠️ YOU'VE BEEN HACKED! ⚠️</h1>
+            <p>Your personal data is being stolen right now...</p>
+            <div class="fake-loading">Processing...</div>
+        </div>
+    </div>
+</body>
+</html>
