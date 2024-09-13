@@ -29,4 +29,8 @@ function startChaos() {
         alert("Transmitting Data to Remote Server...");
     }, 4000); // Show another fake alert after 4 seconds
     // Continue chaos with more alerts or visual changes if needed
+    setTimeout(() => {
+        alert("Hi Ahmed Sayed. Your phone Number has been taken: +966 54 590 1108. This is your location: 21°3551.3'N 39°09''45.4 next to Quraish Street in AlBawadi");
+    }, 4000); // Show another fake alert after 4 seconds
+    // Continue chaos with more alerts or visual changes if needed
 }
